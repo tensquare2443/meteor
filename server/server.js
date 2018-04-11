@@ -8,12 +8,6 @@ var sass = require('node-sass');
 
 app.use(express.static(publicPath));
 
-// sass.render({
-//   file: './../client/style.scss'
-// }, function(err, result) {
-//   console.log('sass done');
-// });
-
 app.listen(port, () => {
   console.log(`Server live on ${port}.`);
 });
