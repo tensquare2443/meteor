@@ -1,4 +1,7 @@
-**Meteor Impact Visualization App**  
-View and interact with a map of the largest meteorite impacts recorded  in history. Scroll to zoom.  
-Hosted live on Heroku: http://disastrous-street.surge.sh/  
-Built with: D3, SASS
+# Meteor Impact Visualization App  
+
+**View the app here**: https://meteor-62.surge.sh/  
+
+Built with: D3, SASS  
+
+Hover over a circle on the world map for information about that particular meteorite. You can also zoom in & out with your mouse.

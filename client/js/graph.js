@@ -108,6 +108,9 @@ d3.json(
       .append("svg")
       .attr("width", w)
       .attr("height", h);
+      // .attr("viewBox", "0, 0, 1100, 550")
+      // .attr("preserveAspectRatio", "xMidYMid meet")
+      // .style("max-width", "1100px");
 
     var zooming = function(d) {
       var offset = [d3.event.transform.x, d3.event.transform.y];
